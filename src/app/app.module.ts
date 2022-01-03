@@ -11,7 +11,7 @@ import { HttpClientModule } from "@angular/common/http";
   declarations: [
     AppComponent,
     HeaderComponent,
-    FormSearchComponent
+    FormSearchComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,20 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-character',
-  template: `
-    <p>
-      character works!
-    </p>
-  `,
-  styles: [
-  ]
+  template: ``,
+  styles: ['input { width:100% }'],
 })
-export class CharacterComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class CharacterComponent {
+  
 }
